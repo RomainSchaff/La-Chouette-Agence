@@ -51,7 +51,8 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    color: #337ab7;
 }
 
 a:active,
@@ -1405,10 +1406,6 @@ textarea {
     line-height: inherit
 }
 
-a {
-    color: #337ab7;
-    text-decoration: none
-}
 
 a:focus,
 a:hover {
@@ -3691,7 +3688,6 @@ textarea.input-lg {
 .btn:focus,
 .btn:hover {
     color: #333;
-    text-decoration: none
 }
 
 .btn.active,
@@ -4850,7 +4846,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
     background-color: #eee
 }
 
@@ -7683,7 +7678,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
