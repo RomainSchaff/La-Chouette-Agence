@@ -5250,6 +5250,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
     line-height: 20px
 }
 
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+    font-size: 18px;
+    font-weight: bold!important;
+}
+
 @media (max-width:767px) {
     .navbar-nav .open .dropdown-menu {
         position: static;

@@ -17,6 +17,9 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+a:focus {   
+    border: 4px black solid;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -137,6 +140,7 @@ a:hover {
     transform: scale(1.3);
     font-weight: bold;
     transition: transform 0.2s;
+    margin: 15px;
 }
 
 .d-bloc .a-btn:hover,
@@ -705,7 +709,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    padding: 10px;
+    margin: auto;
+    font-size: 40px;
 }
 
 h2 {
@@ -741,10 +747,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-}
-
-.grey {
-    color: rgb(65, 65, 65)!important;
 }
 
 .portfolio-thumb {
@@ -794,6 +796,9 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+.btn-atomic-tangerine:focus {
+    border: 4px solid black;
 }
 
 .ltc-white {
