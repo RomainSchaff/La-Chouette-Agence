@@ -1,3 +1,3 @@
-# RomainSchaff_04_01052021_V2
+# La Chouette Agence
 
-MVP de site vitrine pour une entreprise fictive.
+MVP de site vitrine pour une entreprise fictive composé de 2 pages HTML.
